@@ -1,5 +1,5 @@
 *Live site [Demo](https://github.com/sveltejs/component-template)*
-![alt text](https://raw.githubusercontent.com/ohbob/colorify-svelte/master/src/1.gif)
+![alt text](https://raw.githubusercontent.com/ohbob/colorify-svelte/master/public/1.gif)
 ---
 #What does it do? 
 It helps you generate themes from your cssVars. 
