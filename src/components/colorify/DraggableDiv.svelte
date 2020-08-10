@@ -1,5 +1,7 @@
 <style>
     .DraggableDiv {
+        top:50px;
+        right:50px;
         position: fixed;
         max-width: 300px;
         border: 1px solid #aaa;

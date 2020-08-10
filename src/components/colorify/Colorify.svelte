@@ -13,7 +13,7 @@
 </DraggableDiv>
 
 <script>
-	  import DraggableDiv from './DraggableDiv.svelte'
+    import DraggableDiv from './DraggableDiv.svelte'
     import {onMount} from 'svelte';
 
     let color = new Array(100).fill("")
@@ -82,6 +82,7 @@
                 return true
             }
         });
+        varcheck = variables
         getInitialValues()
     });
 </script>
