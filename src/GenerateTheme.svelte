@@ -74,7 +74,6 @@
     }
 
     onMount(() => {
-        let colors = ["#", "rgb"]
         let allCssVars = getAllCSSVariableNames()
         variables = allCssVars.filter(cssvar => {
             if (!isColor(getComputedStyle(document.body).getPropertyValue(cssvar).toLowerCase()) == '') {
