@@ -1,4 +1,4 @@
-*Live site [Demo](https://github.com/sveltejs/component-template)*
+*Live site [Demo](https://colorify-svelte.netlify.app/)*
 ![alt text](https://raw.githubusercontent.com/ohbob/colorify-svelte/master/public/1.gif)
 ---
 ##What is it? 
