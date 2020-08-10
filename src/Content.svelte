@@ -180,6 +180,7 @@ button:focus {
             .left{
                 padding: 0;
                 border-right: none;
+                margin-left:0;
             }
             .right p{
                 margin-bottom: 30px;
