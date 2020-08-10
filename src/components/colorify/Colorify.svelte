@@ -1,5 +1,6 @@
 
-<div class="themes">
+<DraggableDiv>
+    <div class="themes">
     <button on:click={randomColors}>Colorify</button>
     {#each variables as variable, i}
         <label>
@@ -8,10 +9,11 @@
                    on:keydown={updateValue(color[i], variable)}>
         </label>
     {/each}
-</div>
-
+    </div>
+</DraggableDiv>
 
 <script>
+	  import DraggableDiv from './DraggableDiv.svelte'
     import {onMount} from 'svelte';
 
     let color = new Array(100).fill("")
@@ -87,13 +89,6 @@
 
 <style>
     .themes {
-        position: fixed;
-        top: 200px;
-        right: 100px;
-        width: 150px;
-        padding: 20px;
-        background: white;
-        border: black solid 2px;
     }
 
     input {

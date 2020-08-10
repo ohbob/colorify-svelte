@@ -1,9 +1,9 @@
 <script>
-import GenerateTheme from './GenerateTheme.svelte'
+import Colorify from './components/colorify/Colorify.svelte'
 import Content from './Content.svelte'
 </script>
 
-<GenerateTheme />
+<Colorify />
 <Content />
 
 
