@@ -21,14 +21,14 @@ services:
             - 6379:6379
 
     directus:
-        image: directus/directus:v9.0.0-rc.19
+        image: directus/directus
         ports:
             - 8055:8055
         networks:
             - directus
         environment:
             KEY: '255d861b-5ea1-5996-9aa3-922530ec40b1'
-            SECRET: '6116487b-cda1-52c2-b5b5-c8022c45e263'
+            SECRET: '6116487b-cda1-52c2-b5b5-c8022c453123'
 
             DB_CLIENT: 'pg'
             DB_HOST: 'database'
