@@ -21,7 +21,7 @@ services:
             - 6379:6379
 
     directus:
-        image: directus/directus:v9.0.0-rc.19
+        image: directus/directus:v9.0.0-rc.22
         ports:
             - 8055:8055
         networks:
