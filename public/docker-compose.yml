@@ -40,8 +40,8 @@ services:
             CACHE_ENABLED: 'true'
             CACHE_STORE: 'redis'
             CACHE_REDIS: 'redis://cache:6379'
-            DIRECTUS_ADMIN_EMAIL: "admin@example.com"
-            DIRECTUS_ADMIN_PASSWORD: "d1r3ctu5"
+            DIRECTUS_ADMIN_EMAIL: 'dev@dev.dev'
+            DIRECTUS_ADMIN_PASSWORD: 'dev'
 
 networks:
     directus:
